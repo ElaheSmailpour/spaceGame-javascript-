@@ -75,7 +75,7 @@ function createUfos() {
         src: "/images/ufo.png",
         img: new Image()
     }
-    ufo.img.src = ufo.src;
+    ufo.img.src = ufo.src; //ufo-Bild wird geladen.
     ufos.push(ufo);
 }
 function update() {
